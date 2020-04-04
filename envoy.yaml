@@ -37,7 +37,7 @@ static_resources:
           - name: envoy.router
   clusters:
   - name: greeter_service
-    connect_timeout: 0.25s
+    connect_timeout: 25s
     type: logical_dns
     http2_protocol_options: {}
     lb_policy: round_robin
